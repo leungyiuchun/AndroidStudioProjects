@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:id="@+id/vowel_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+<!---->
+        <TextView
+            android:id="@+id/vowel_tv_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vowel_theme"
+            android:textColor="#5E3434"
+            android:textSize="50dp" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/init_themeSep"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/vowel_theme"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="5dp"-->
+            <!--android:background="@android:color/transparent" />-->
+<!---->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="5dp"-->
+            <!--android:background="@android:color/darker_gray" />-->
+<!---->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="5dp"-->
+            <!--android:background="@android:color/transparent" />-->
+    <!--</LinearLayout>-->
+
+        <TableLayout
+            android:id="@+id/vowel_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_3"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_4"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_5"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_6"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_7"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_8"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_9"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/vowel_1_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_3_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_3"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_4_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_4"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_5_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_5"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_6_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_6"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_8_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_8"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_9_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_9"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/vowel_10_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_11_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_11"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_12_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_12"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_13_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_13"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_14_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_14"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_15_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_15"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_16"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/vowel_17_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_17"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_18_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_18"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_19_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_19"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_20_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_20"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_21"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/vowel_22_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_22"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_23_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_23"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_24_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_24"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_25"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/vowel_26_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_26"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_27_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_27"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_28_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_28"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_29_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_29"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_30_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_30"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_31_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_31"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_32_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_32"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_33"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/vowel_34_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_34"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_35_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_35"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_36_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_36"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_37_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_37"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_38_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_38"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_39_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_39"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_40_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_40"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_41"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/vowel_42_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_42"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_43_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_43"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_44_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_44"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_45"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/vowel_46_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_46"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_47_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_47"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_48_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_48"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_49_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_49"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_50_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_50"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_51_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_51"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_52_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_52"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_53"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/vowel_54_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_54"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_55_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_55"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_56_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_56"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_57_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_57"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_58_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_58"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_59_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_59"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/vowel_60_TextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_blue"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_60"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borders_black_and_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/vowel_61"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#49345E"
+                    android:textSize="35dp" />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/setting_finish"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:gravity="right"-->
+        <!--android:layout_alignParentBottom="true">-->
+        <!--<Button-->
+            <!--android:textSize="45dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/setting_finish"-->
+            <!--android:id="@+id/setting_button"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true" />-->
+    <!--</LinearLayout>-->
+</LinearLayout>

@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.benny_laptop.capstone.ExerciseActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/OneToTwo"
+        android:layout_alignStart="@+id/OneToTwo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/OneToTwo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="花"
+            android:id="@+id/soundButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="120dp"
+            android:background="#a27aff"
+            android:textColor="#ffffff"
+             />
+        <EditText
+
+            android:hint="F"
+            android:layout_toRightOf="@+id/soundButton"
+            android:background="#669999"
+            android:maxLength="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/editText"
+            android:layout_centerVertical="true"
+            android:textSize="100dp" />
+
+        <View
+            android:id="@+id/TwoToFour"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:background="#ff99cc"
+            android:maxLength="2"
+            android:hint="aa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/editText2"
+            android:layout_toLeftOf="@id/TwoToFour"
+            android:textSize="100dp" />
+
+        <ImageView
+            android:layout_toRightOf="@id/TwoToFour"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/flower_icon"
+            android:layout_toLeftOf="@+id/confirmButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="提交！"
+            android:id="@+id/confirmButton"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/OneToTwo"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/OneToTwo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <android.inputmethodservice.KeyboardView
+            android:keyTextSize="20dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/KeyboardView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

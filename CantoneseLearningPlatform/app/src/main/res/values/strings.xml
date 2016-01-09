@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">CantoneseLearningPlatform</string>
+    <string name="home_theme">廣東話學習平台</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_play">開始</string>
+    <string name="action_settings">設定</string>
+
+    <string name="setting_initial">聲母</string>
+    <string name="setting_vowel">韻母</string>
+    <string name="setting_task">選填</string>
+    <string name="setting_hints">提示</string>
+    <string name="setting_finish">完成</string>
+
+    <string name="init_1">b</string>
+    <string name="init_2">p</string>
+    <string name="init_3">m</string>
+    <string name="init_4">f</string>
+    <string name="init_5">d</string>
+    <string name="init_6">t</string>
+    <string name="init_7">n</string>
+    <string name="init_8">l</string>
+    <string name="init_9">g</string>
+    <string name="init_10">k</string>
+    <string name="init_11">ng</string>
+    <string name="init_12">h</string>
+    <string name="init_13">gw</string>
+    <string name="init_14">kw</string>
+    <string name="init_15">w</string>
+    <string name="init_16">z</string>
+    <string name="init_17">c</string>
+    <string name="init_18">s</string>
+    <string name="init_19">j</string>
+    <string name="init_theme">請選擇是次練習的聲母</string>
+
+    <string name="vowel_1">aa</string>
+    <string name="vowel_10">aai</string>
+    <string name="vowel_17">aau</string>
+    <string name="vowel_22">aam</string>
+    <string name="vowel_26">aan</string>
+    <string name="vowel_34">aang</string>
+    <string name="vowel_42">aap</string>
+    <string name="vowel_46">aat</string>
+    <string name="vowel_54">aak</string>
+    <string name="vowel_11">ai</string>
+    <string name="vowel_18">au</string>
+    <string name="vowel_23">am</string>
+    <string name="vowel_27">an</string>
+    <string name="vowel_35">ang</string>
+    <string name="vowel_43">ap</string>
+    <string name="vowel_47">at</string>
+    <string name="vowel_55">ak</string>
+    <string name="vowel_3">e</string>
+    <string name="vowel_12">ei</string>
+    <string name="vowel_36">eng</string>
+    <string name="vowel_56">ek</string>
+    <string name="vowel_4">i</string>
+    <string name="vowel_19">iu</string>
+    <string name="vowel_24">im</string>
+    <string name="vowel_28">in</string>
+    <string name="vowel_37">ing</string>
+    <string name="vowel_44">ip</string>
+    <string name="vowel_48">it</string>
+    <string name="vowel_57">ik</string>
+    <string name="vowel_5">o</string>
+    <string name="vowel_13">oi</string>
+    <string name="vowel_20">ou</string>
+    <string name="vowel_29">on</string>
+    <string name="vowel_38">ong</string>
+    <string name="vowel_49">ot</string>
+    <string name="vowel_58">ok</string>
+    <string name="vowel_6">oe</string>
+    <string name="vowel_39">oeng</string>
+    <string name="vowel_59">oek</string>
+    <string name="vowel_7">eo</string>
+    <string name="vowel_14">eoi</string>
+    <string name="vowel_30">eon</string>
+    <string name="vowel_50">eot</string>
+    <string name="vowel_8">u</string>
+    <string name="vowel_15">ui</string>
+    <string name="vowel_31">un</string>
+    <string name="vowel_40">ung</string>
+    <string name="vowel_51">ut</string>
+    <string name="vowel_60">uk</string>
+    <string name="vowel_9">yu</string>
+    <string name="vowel_32">yun</string>
+    <string name="vowel_52">yut</string>
+    <string name="vowel_16">i</string>
+    <string name="vowel_21">u</string>
+    <string name="vowel_25">m</string>
+    <string name="vowel_33">n</string>
+    <string name="vowel_41">ng</string>
+    <string name="vowel_45">p</string>
+    <string name="vowel_53">t</string>
+    <string name="vowel_61">k</string>
+    <string name="vowel_2">a</string>
+    <string name="vowel_theme">請選擇是次練習的韻母</string>
+
+    <string name="task_theme">請選擇是次練習的題目</string>
+    <string name="hints_theme">請選擇是次練習的提示</string>
+    <string name="hints">提示</string>
+
+
+    <string name="ini_vowel">聲母 + 韻母</string>
+    <string name="pass_btn"></string>
+    <string name="title_activity_exercise">ExerciseActivity</string>
+    <string name="title_setting_exercise">SettingActivity</string>
+    <string name="submit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="ok">確定</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

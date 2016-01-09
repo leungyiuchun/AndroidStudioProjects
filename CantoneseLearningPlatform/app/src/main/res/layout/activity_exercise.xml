@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/OneToTwo"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/OneToTwo"
+        android:layout_alignStart="@+id/OneToTwo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/OneToTwo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/spp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/TwoToFour"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="花"
+                android:id="@+id/soundButton"
+                android:textSize="200dp"
+                android:background="#928294"
+                android:textColor="#ffffff"
+                />
+            <EditText
+                android:gravity="center"
+                android:layout_toRightOf="@+id/soundButton"
+                android:background="@drawable/init_et"
+                android:maxLength="2"
+                android:textColor="#ffffff"
+                android:inputType="text"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:id="@+id/editText"
+                android:textSize="70dp"/>
+
+
+            <EditText
+                android:gravity="center_vertical"
+                android:maxLength="5"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:background="@drawable/vowel_init"
+                android:layout_toRightOf="@id/editText"
+                android:layout_width="270dp"
+                android:layout_height="match_parent"
+                android:id="@+id/editText2"
+                android:textSize="70dp"
+                android:layout_toLeftOf="@id/TwoToFour" />
+
+        </LinearLayout>
+        <View
+            android:id="@+id/TwoToFour"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/confirmButton"
+            android:src="@drawable/flower_icon"
+            android:layout_alignLeft="@+id/TwoToFour"
+            android:layout_alignStart="@+id/TwoToFour" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="提交！"
+            android:id="@+id/confirmButton"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+    <!-- NOTE No need to develop a system service for keyboard, there is a standard View for that (well, not completely standard, its in a funny package 'android.inputmethodservice'. -->
+    <!-- NOTE The graphical layout does not know the package ('java.lang.NoClassDefFoundError: Could not initialize class android.inputmethodservice.KeyboardView') so the keyboard is not shown. -->
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:background="#ffffff"
+        android:keyTextSize="60dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

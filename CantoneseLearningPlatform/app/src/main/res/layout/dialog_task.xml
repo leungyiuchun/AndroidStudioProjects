@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/task_theme"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textColor="#5E3434"
+            android:text="@string/task_theme"
+            android:id="@+id/task_tv_theme" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/task_themeSep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/task_theme"
+        android:gravity="center_horizontal">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@android:color/transparent"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background= "@android:color/darker_gray"
+            android:layout_below="@+id/task_theme"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_task_1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/task_themeSep"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/task_rb_1"
+                android:text="@string/setting_initial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60dp"></RadioButton>>
+            <RadioButton
+                android:id="@+id/task_rb_2"
+                android:text="@string/setting_vowel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60dp"></RadioButton>>
+            <RadioButton
+                android:id="@+id/task_rb_3"
+                android:text="@string/ini_vowel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60dp"></RadioButton>>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_finish"
+        android:gravity="right"
+        android:layout_below="@+id/ll_task_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <!--<Button-->
+            <!--android:textSize="45dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/setting_finish"-->
+            <!--android:id="@+id/task_setting_button"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true" />-->
+    </LinearLayout>
+
+</RelativeLayout>

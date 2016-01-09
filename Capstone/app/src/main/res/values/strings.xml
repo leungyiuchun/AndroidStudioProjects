@@ -1,0 +1,24 @@
+<resources>
+    <string name="home_theme">廣東話學習平台</string>
+    <string name="app_name">Capstone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_play">開始</string>
+    <string name="action_settings">設定</string>
+    <string name="setting_initial">聲母</string>
+    <string name="setting_vowel">韻母</string>
+    <string name="setting_task">選填</string>
+    <string name="setting_hints">提示</string>
+    <string name="init_1">B</string>
+    <string name="init_2">P</string>
+    <string name="init_3">M</string>
+    <string name="init_4">F</string>
+    <string name="init_5">a</string>
+    <string name="init_6">o</string>
+    <string name="init_7">e</string>
+    <string name="init_8">u</string>
+    <string name="init_11">聲母 + 韻母</string>
+    <string name="pass_btn">Done</string>
+    <string name="title_activity_exercise">ExerciseActivity</string>>
+    <string name="title_setting_exercise">SettingActivity</string>>
+
+</resources>
